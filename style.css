@@ -1,0 +1,52 @@
+
+body{
+    padding: 0;
+margin: 0;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid lightgrey ;
+    
+    font-weight:bolder;
+    padding: 0 19px 0 20px;
+    /* width: 100%; */
+}
+
+.section {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+    flex-wrap: wrap;
+
+   
+}
+
+.section p {
+    padding: 20px;
+}
+.section p:hover {
+    color: aqua;
+}
+
+.sectoin-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    flex-wrap: wrap;
+    float: right;
+}
+.sectoin-2 div{
+    padding: 20px;
+}
+.sectoin-2 div:hover{
+   color: aqua;
+}
+
